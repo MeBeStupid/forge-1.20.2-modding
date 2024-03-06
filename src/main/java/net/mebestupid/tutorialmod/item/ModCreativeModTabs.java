@@ -1,6 +1,7 @@
 package net.mebestupid.tutorialmod.item;
 
 import net.mebestupid.tutorialmod.TutorialMod;
+import net.mebestupid.tutorialmod.block.ModBlocks;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
@@ -19,6 +20,7 @@ public class ModCreativeModTabs {
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModItems.CIRNU.get());
                         output.accept(ModItems.CIRNUCEPTION.get());
+                        output.accept(ModBlocks.CIRNU_BLOCK.get());
                     })
                     .build());
 

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "tutorialmod:cirnu_block"
+    }
+  ],
+  "result": {
+    "item": "tutorialmod:cirnu",
+    "count": 9
+  }
+}

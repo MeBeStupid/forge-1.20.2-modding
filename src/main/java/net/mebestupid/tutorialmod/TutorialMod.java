@@ -1,6 +1,7 @@
 package net.mebestupid.tutorialmod;
 
 import com.mojang.logging.LogUtils;
+import net.mebestupid.tutorialmod.block.ModBlocks;
 import net.mebestupid.tutorialmod.item.ModCreativeModTabs;
 import net.mebestupid.tutorialmod.item.ModItems;
 import net.minecraft.world.item.CreativeModeTab;
@@ -28,6 +29,7 @@ public class TutorialMod
 
         ModCreativeModTabs.register(modEventBus);
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 

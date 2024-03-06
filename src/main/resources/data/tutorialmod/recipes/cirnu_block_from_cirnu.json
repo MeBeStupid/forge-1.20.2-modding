@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "tutorialmod:cirnu"
+    }
+  },
+  "result": {
+    "item": "tutorialmod:cirnu_block"
+  }
+}
